@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Artifika&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap");
+
+body {
+  background-color: #fffaf2;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+nav {
+  height: 29px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 3em;
+  padding-left: 3em;
+}
+
+h5 {
+  font-family: Abel;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  text-transform: capitalize;
+  color: #432818;
+}
+
+h1 {
+  font-family: Megrim;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 112px;
+  text-align: center;
+
+  color: #6f1d1b;
+}
+
+p {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: justify;
+
+  color: #432818;
+}
+
+h2 {
+  font-family: Artifika;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 138.68%;
+  /* or 29px */
+
+  text-align: center;
+
+  color: #59231a;
+}
+
+h3 {
+  font-family: Artifika;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #6f1d1b;
+}
+
+h4 {
+  font-family: Abhaya Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+
+  color: #6f1d1b;
+}
+
+h6 {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+
+  color: #432818;
+}
+
+.work {
+  max-width: 310px;
+  max-height: 220px;
+
+  display: flex;
+  align-items: center;
+}
+
+.pic {
+  max-width: 308px;
+  max-height: 438px;
+}
+
+#intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  width: 1050px;
+  height: 522px;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+
+  justify-content: center;
+  align-items: stretch;
+  /* flex-flow: row; */
+  flex-direction: row;
+  gap: 20px;
+  width: 666px;
+  height: 239px;
+}
+
+.tool {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+button {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+
+  width: 86px;
+  height: 19px;
+
+  background-color: #6f1d1b;
+  border-radius: 3px;
+}
+
+@media (max-width: 390px) {
+  p {
+    font-family: Alegreya Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: justify;
+
+    color: #432818;
+  }
+
+  .pic {
+    max-width: 105px;
+    max-height: 150px;
+  }
+
+  .work {
+    max-width: 310px;
+    max-height: 220px;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .card {
+    display: flex;
+
+    justify-content: center;
+    align-items: stretch;
+    /* flex-flow: row; */
+    flex-direction: row;
+    gap: 20px;
+    width: 30em;
+    height: 239px;
+  }
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Ordering_Flex_Items */
